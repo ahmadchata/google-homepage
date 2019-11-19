@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    height: 40px;
+    display: block;
+    margin-top: 30px;
+    margin-right: 30px;
+    float: top;
+}
+
+/*top bar*/
+.bar {
+    float: right;
+}
+.bar li {
+    display: inline;
+    padding-left: 10px;
+
+}
+
+#sign-in-btn {
+    display: inline-block;
+    font-size: 80%;
+    width: 50px;
+    height: 25px;
+    border: none;
+    color: white;
+    background-color: dodgerblue;
+}
+
+/*main body*/
+
+main {
+    text-align: center;
+    margin-top: 100px;
+}
+
+input {
+    height: 45px;
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background-position: 10px 10px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid rgb(189, 186, 186);
+    border-radius: 30px;
+    box-shadow: 1px 1px 2px 2px #dedede;
+}
+.offered li {
+    display: inline;
+    padding-right: 10px;
+}
+
+/*search button*/
+
+button {
+    margin: 5px;
+    margin-bottom: 30px;
+    height: 32px;
+    width: 130px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 4px;
+}
+
+/*footer*/
+
+footer {
+        display: block;
+        background-color: #ebebeb;
+        height: 40px;
+        position: absolute;
+        bottom: 0;
+        max-width: 100%;
+        min-width: 100%;
+}
+
+.btm-right li {
+    padding-top: 10px;
+    padding-right: 20px;
+    float: right;
+}
+
+.btm-left li {
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left;
+}
+
+/*text colors and hover decoration*/
+
+.btm-left a, .btm-right a, .button a {
+    color: #464646;
+}
+
+.bar a {
+    color: #000000
+}
+
+.btm-left a:hover, .btm-right a:hover, .bar a:hover, .offered a:hover {
+    text-decoration: underline;
+
+}
